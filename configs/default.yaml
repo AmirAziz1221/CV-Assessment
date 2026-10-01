@@ -1,0 +1,16 @@
+# Single source of truth for data settings (training settings are added in Phase 3).
+seed: 42
+data:
+  manifest: data/splits.csv
+  image_size: 320          # justified in docs/data_prep.md (resolution study)
+  resize_mode: stretch     # stretch (plain square resize) | letterbox (keep aspect ratio, pad). See resolution study
+  augment:                 # TRAIN ONLY. Every value was checked by scripts/augmentation_check.py
+    hflip_p: 0.5
+    vflip_p: 0.5           # ASSUMPTION: tile orientation can vary on the line - confirm with the client
+    rotate_deg: 7          # expand=True so no defect is cut off; no shifts/crops (see augmentation_check)
+    brightness: 0.2
+    contrast: 0.2
+    blur_p: 0.3
+    blur_sigma_max: 1.0
+    noise_p: 0.3
+    noise_std: 0.02

@@ -1,0 +1,5 @@
+line-length = 140
+[lint]
+select = ["E", "F", "I", "W"]
+# E402: scripts add the repo root to sys.path before importing `src`; E701/E702: short one-line plot calls
+ignore = ["E402", "E701", "E702"]

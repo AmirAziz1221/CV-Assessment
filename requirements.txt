@@ -1,0 +1,25 @@
+# Pinned to the versions this project was actually run with.
+# On a CPU-only machine, install torch from the CPU index first (much smaller download):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+torchvision==0.29.1
+timm==1.0.30
+numpy==2.4.4
+pandas==3.0.2
+pillow==12.1.1
+scipy==1.17.1
+scikit-learn==1.8.0
+matplotlib==3.10.8
+opencv-python-headless==4.13.0.92
+PyYAML==6.0.3
+tensorboard==2.21.0
+grad-cam==1.5.7
+onnx==1.23.1
+onnxruntime==1.24.4
+fastapi==0.142.2
+uvicorn==0.54.0
+python-multipart==0.0.32
+pydantic-settings==2.15.0
+httpx==0.28.1
+pytest==9.1.1
+ruff==0.16.9

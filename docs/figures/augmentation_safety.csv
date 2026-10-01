@@ -1,0 +1,3 @@
+,draws,min_retained_%,p1_retained_%,draws_losing_>10%_of_defect_%,draws_losing_>50%_of_defect_%
+our geometric aug,16650.0,95.2,98.7,0.0,0.0
+random crop (rejected),16650.0,0.0,0.0,47.49,15.38

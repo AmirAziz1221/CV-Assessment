@@ -1,0 +1,11 @@
+R,mode,median_side_px,p10_side_px,pct_defects_below_6px,pct_defects_below_10px,canvas_used_pct,relative_cost
+224,letterbox,11.5,6.1,10.1,40.2,64.2,1.0
+224,stretch,15.6,6.6,7.2,24.5,100.0,1.0
+256,letterbox,13.2,6.9,5.9,30.4,64.2,1.3
+256,stretch,17.9,7.5,3.4,18.3,100.0,1.3
+320,letterbox,16.5,8.7,1.5,19.3,64.2,2.0
+320,stretch,22.3,9.4,1.0,11.6,100.0,2.0
+384,letterbox,19.7,10.4,0.8,9.0,64.2,2.9
+384,stretch,26.8,11.2,0.5,5.9,100.0,2.9
+448,letterbox,23.0,12.1,0.5,4.6,64.2,4.0
+448,stretch,31.3,13.1,0.5,2.8,100.0,4.0

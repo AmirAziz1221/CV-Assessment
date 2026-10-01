@@ -1,0 +1,170 @@
+{
+  "class_counts": {
+    "normal": 952,
+    "defective": 392
+  },
+  "imbalance_ratio_normal_to_defective": 2.4285714285714284,
+  "defect_type_counts": {
+    "blowhole": 115,
+    "uneven": 103,
+    "break": 85,
+    "crack": 57,
+    "fray": 32
+  },
+  "corrupt_files": 0,
+  "formats": {
+    "JPEG": 1344
+  },
+  "modes": {
+    "L": 1344
+  },
+  "size_summary": {
+    "width": {
+      "count": 1344.0,
+      "mean": 330.545,
+      "std": 152.73,
+      "min": 103.0,
+      "25%": 214.0,
+      "50%": 270.5,
+      "75%": 493.25,
+      "max": 632.0
+    },
+    "height": {
+      "count": 1344.0,
+      "mean": 319.594,
+      "std": 43.926,
+      "min": 222.0,
+      "25%": 279.0,
+      "50%": 324.0,
+      "75%": 360.0,
+      "max": 403.0
+    },
+    "aspect": {
+      "count": 1344.0,
+      "mean": 1.052,
+      "std": 0.554,
+      "min": 0.356,
+      "25%": 0.698,
+      "50%": 0.845,
+      "75%": 1.341,
+      "max": 2.678
+    }
+  },
+  "unique_sizes_top10": {
+    "265x375": 6,
+    "123x286": 5,
+    "122x285": 4,
+    "126x281": 3,
+    "219x272": 3,
+    "296x343": 3,
+    "218x273": 3,
+    "267x377": 3,
+    "195x322": 3,
+    "599x244": 3
+  },
+  "n_unique_sizes": 1225,
+  "per_class_props": {
+    "defective": {
+      "width_mean": 340.04,
+      "width_std": 171.61,
+      "height_mean": 310.62,
+      "height_std": 48.66,
+      "brightness_mean": 111.35,
+      "brightness_std": 33.91,
+      "contrast_mean": 30.58,
+      "contrast_std": 10.53,
+      "sharpness_mean": 689.93,
+      "sharpness_std": 426.49
+    },
+    "normal": {
+      "width_mean": 326.63,
+      "width_std": 144.15,
+      "height_mean": 323.29,
+      "height_std": 41.29,
+      "brightness_mean": 109.72,
+      "brightness_std": 33.61,
+      "contrast_mean": 30.45,
+      "contrast_std": 10.16,
+      "sharpness_mean": 643.09,
+      "sharpness_std": 419.04
+    }
+  },
+  "exact_duplicate_files": 0,
+  "dhash_pairs_within_4_bits": 5525,
+  "duplicate_group_sensitivity": {
+    "0.95": {
+      "images_in_multi_image_groups": 1182,
+      "n_groups_with_2plus": 209,
+      "largest_group": 86,
+      "groups_mixing_classes": 6
+    },
+    "0.97": {
+      "images_in_multi_image_groups": 1041,
+      "n_groups_with_2plus": 239,
+      "largest_group": 18,
+      "groups_mixing_classes": 4
+    },
+    "0.98": {
+      "images_in_multi_image_groups": 908,
+      "n_groups_with_2plus": 238,
+      "largest_group": 12,
+      "groups_mixing_classes": 3
+    },
+    "0.99": {
+      "images_in_multi_image_groups": 640,
+      "n_groups_with_2plus": 191,
+      "largest_group": 12,
+      "groups_mixing_classes": 1
+    },
+    "0.995": {
+      "images_in_multi_image_groups": 394,
+      "n_groups_with_2plus": 127,
+      "largest_group": 12,
+      "groups_mixing_classes": 1
+    }
+  },
+  "group_threshold_used": 0.98,
+  "n_unique_physical_groups": 674,
+  "groups_by_class": {
+    "defective": 221,
+    "normal": 456
+  },
+  "shortcut_auc_single_feature": {
+    "width": 0.4949435131195335,
+    "height": 0.42874962484993995,
+    "aspect": 0.5034446814440061,
+    "area": 0.4747992947178872,
+    "brightness": 0.5135188003772938,
+    "contrast": 0.5050564868804664,
+    "sharpness": 0.5340823829531812
+  },
+  "defect_area_frac_by_type": {
+    "blowhole": {
+      "min": 0.00027,
+      "50%": 0.00143,
+      "max": 0.00669
+    },
+    "break": {
+      "min": 0.00085,
+      "50%": 0.01262,
+      "max": 0.22884
+    },
+    "crack": {
+      "min": 0.00071,
+      "50%": 0.00308,
+      "max": 0.02333
+    },
+    "fray": {
+      "min": 0.00098,
+      "50%": 0.15431,
+      "max": 0.43891
+    },
+    "uneven": {
+      "min": 1e-05,
+      "50%": 0.24768,
+      "max": 0.48496
+    }
+  },
+  "defect_area_frac_overall_median": 0.004869401065890413,
+  "defect_area_frac_p10": 0.0008575273458739948
+}

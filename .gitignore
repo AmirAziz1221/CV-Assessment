@@ -1,0 +1,14 @@
+# data and large artifacts are NOT committed; scripts/prepare_data.py recreates the data
+data/raw/
+data/masks/
+data/_download/
+models/*.pt
+models/*.pth
+models/*.onnx
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+.ipynb_checkpoints/
